@@ -13,19 +13,25 @@ html, body {
     height: 100%;
 }
 
-.drop-down {
+.nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 10%;
     height: 100%;
+    gap: 10px;
+}
+
+.drop-down-btn {
+    border: none;
+    width: 100%;
+    display: flex;
+
 }
 
 .drop-down-content {
     max-height: 0;
     overflow: hidden;
-}
-
-.nav {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
 }
 
 main {
