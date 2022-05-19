@@ -9,23 +9,7 @@
 }
 
 .drop-down-content {
-    max-height: auto;
+    max-height: 0;
     overflow: hidden;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto 90%;
-    grid-template-areas:
-        "nav article";
-}
-
-.nav {
-    grid-area: nav;
-    text-align: center;
-    align-items: center;
-}
-
-.article {
-    grid-area: article;
-}
