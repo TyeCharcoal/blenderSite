@@ -2,12 +2,30 @@
 #1A2C38 - GUNMETAL
 #D87A3C - ORANGE
 #619B8A - CYAN */
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .drop-down-content {
-    max-height: 0;
+    max-height: auto;
     overflow: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 90%;
+    grid-template-areas:
+        "nav article";
+}
+
+.nav {
+    grid-area: nav;
+    text-align: center;
+    align-items: center;
+}
+
+.article {
+    grid-area: article;
 }
