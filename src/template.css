@@ -7,6 +7,7 @@
     padding: 0;
 }
 
-.drop-down {
+.drop-down-content {
     max-height: 0;
+    overflow: hidden;
 }
