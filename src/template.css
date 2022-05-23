@@ -19,30 +19,41 @@ html, body {
     flex-direction: column;
     position: fixed;
     width: 10%;
-    height: 99%;
+    height: 100%;
     gap: 5px;
     border-width: 2px;
     border-color: black;
     border-style: solid;
     background-color: #1A2C38;
-    padding: 5px;
 }
 
 .drop-down-btn {
     border: none;
     width: 100%;
+    height: 2em;
     display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #80baa9;
+    padding-left: .2em;
+    padding-top: .2em;
 }
 
 .drop-down-content {
     max-height: 0;
     overflow: hidden;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: .2em;
 }
 
 main {
     margin-left: 10%;
     background-color: #D87A3C;
-    height: 98%;
-    padding: 10px;
+    height: 100%;
     padding-left: 30px;
+    padding-top: 20px;
+}
+
+a:link {
+    text-decoration: none;
 }
