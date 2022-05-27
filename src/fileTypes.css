@@ -1,0 +1,44 @@
+html, body {
+    color: honeydew;
+    background-color: #2c3746;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    margin-left: 12.5%;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+a:link {
+    text-decoration: underline;
+    color: honeydew;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: honeydew;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+h1 {
+    padding-bottom: 1em;
+}
+
+li {
+    padding-bottom: .25em;
+}
+
+h2 {
+    padding-top: 2em;
+    padding-bottom: .25em;
+}
+
+.box {
+    margin-right: 30%;
+}
